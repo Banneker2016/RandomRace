@@ -2,7 +2,7 @@ import numpy as np
 
 dir = [-1,1]
 
-l = # enter some number
+l = 1# enter some number
 
 def rndir():
   return np.random.choice([-1,1])
