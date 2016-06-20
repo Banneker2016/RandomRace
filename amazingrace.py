@@ -28,6 +28,7 @@ while roll:
 print('\n ===== Statistics ======')
 print('Rolls: %i'%len(rolls))
 print('Sum: %i'%np.sum(rolls))
+print('RMS: %0.2f'%np.sqrt(np.sum(np.array(rolls)**2)))
 print('\nHow much wood would a woodchuck chuck ...')
 
 
